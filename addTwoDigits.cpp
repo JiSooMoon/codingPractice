@@ -11,3 +11,10 @@ int addTwoDigits(int n) {
     
     return n1+n2;
 }
+
+
+//There is a way better method:
+int addTwoDigits(int n) {
+
+    return n/10 + n%10;
+}
