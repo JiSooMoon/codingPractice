@@ -2,7 +2,7 @@ int depositProfit(int deposit, int rate, int threshold) {
     
     int countYears = 0;
     
-    int total = deposit;
+    double total = deposit;
     
     while(total < threshold){
         
@@ -14,3 +14,4 @@ int depositProfit(int deposit, int rate, int threshold) {
     
 
 }
+//need to consider that the deposit will be not only integer. Changing into double allows to avoid a hidden test case to pass!
