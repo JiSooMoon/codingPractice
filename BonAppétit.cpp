@@ -51,14 +51,6 @@ int main() {
     }else{
         cout << b_charged - b_actual;
     }
-    
-    
-    
-    
-    
-    
-    
-    
     return 0;
 }
 
